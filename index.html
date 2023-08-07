@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>A-Frame World Tracking</title>
+    <title>AlvaAR Camera</title>
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script type="module" src="js/world-tracking.js"></script>
 </head>
 <body>
     <div id="container"></div>
     <a-scene>
-        <a-entity id="tracked" position="0 0 0" scale="0 0 0">
+        <a-plane id="tracked" position="0 0 0" scale="0 0 0" opacity="0.1">
             <a-entity gltf-model="url(3d/Xbot2.glb)" ></a-entity>
-        </a-entity>
+        </a-plane>
     </a-scene>
 </body>
 </html>
